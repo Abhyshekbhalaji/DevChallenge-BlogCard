@@ -1,0 +1,163 @@
+*,*::after,*::before{
+    padding: 0%;
+    margin:0 ;
+    
+}
+html{
+    font-size: 62.5%;
+}
+
+
+/* .wrapper{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 164px 400px 100px ;
+    grid-template-columns: 0.5fr 350px 0.5fr;
+    
+
+}
+.wrapper__header{
+ 
+    grid-column: 1/-1;
+    font-family: "Sora", sans-serif;
+
+}
+
+.wrapper__content{
+    
+     grid-column: 2/3;
+     display: grid;
+     grid-template-rows: 1fr 1fr 30px 1fr 1fr;
+
+     border-radius: 16px;
+     padding: 16px;
+     background:rgba(189, 187, 191, 0.5);
+    
+}
+.wrapper{
+
+}
+
+
+h3{
+    text-align: center;
+}
+.wrapper__content-2{
+   
+ margin: 8px 0;
+}
+.wrapper__content-button{
+    background: rgba(138, 43, 226, .1);
+    color: blueviolet;
+    
+    padding: 5px;
+    border-radius: 14px;
+    width: 50px;
+   
+    margin-top: 10px;
+}
+.wrapper__content-3{
+    
+    font-size: 14px;
+    
+
+}
+.wrapper__content-4{
+  margin-top: 5px;
+font-size: 15px;
+}
+.wrapper__content-5{
+    align-self:self-end;
+    font-size: 14px;
+  margin: 10px 0;
+}
+.wrapper__footer{
+    
+    grid-row: 3/4;
+    grid-column: 1/-1;
+
+}
+.wrapper__content-text{
+    height: 100px;
+    width: 95%;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+   
+ 
+} */
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.wrapper {
+    display: grid;
+    height: auto;
+    width: 350px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper__content {
+    padding: 16px;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto auto;
+    gap: 12px;
+}
+
+.wrapper__content-1 img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.wrapper__content-button {
+    background: rgba(138, 43, 226, 0.2);
+    color: #9018ff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 8px;
+    text-align: center;
+    width: max-content;
+    margin-bottom: 8px;
+}
+
+.wrapper__content-3 h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.wrapper__content-4 p {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.wrapper__content-5 {
+    font-size:12px;
+    color: #999;
+    text-align: left;
+}
+
+img {
+    border-radius: 16px;
+    object-fit: cover;
+}
+
